@@ -6,6 +6,8 @@ import java.util.Arrays;
 
 public class CountingBits {
 
+    // Time Complexity: O(log(n)), Space Complexity: O(log(n))
+    // Using this if we calculate all n elements then, Time Complexity: O(n log(n)), Space Complexity: O(n)
     static int countingBitsRecursive(int n) {
         if (n == 0) {
             return n;
@@ -14,6 +16,7 @@ public class CountingBits {
         return countingBitsRecursive(n / 2) + n % 2;
     }
 
+    // Time Complexity: O(n), Space Complexity: O(n)
     static int[] countingBitsDP(int n) {
         // Initialize DP Array
         int[] dp = new int[n + 1];
