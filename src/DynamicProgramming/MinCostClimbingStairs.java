@@ -1,3 +1,4 @@
+package DynamicProgramming;
 // Problem Link: https://leetcode.com/problems/min-cost-climbing-stairs/
 
 public class MinCostClimbingStairs {

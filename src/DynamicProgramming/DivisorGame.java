@@ -1,3 +1,4 @@
+package DynamicProgramming;
 public class DivisorGame {
 
     static boolean divisorGameRecursive(int n) {
