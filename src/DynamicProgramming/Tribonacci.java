@@ -1,5 +1,6 @@
-package DynamicProgramming;
 // Problem Link: https://leetcode.com/problems/n-th-tribonacci-number/
+
+package DynamicProgramming;
 
 public class Tribonacci {
 

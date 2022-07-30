@@ -1,5 +1,6 @@
-package DynamicProgramming;
 // Problem Link: https://leetcode.com/problems/pascals-triangle/
+
+package DynamicProgramming;
 
 import java.util.ArrayList;
 import java.util.List;
